@@ -1,0 +1,155 @@
+body{
+  font-family: Arial,sans-serif;
+  margin:0;
+  background-color:white;
+}
+
+.header{
+  position:absolute;
+  top:0;
+  left:1px;
+  width:100%;
+  background-color: #4caf50;
+  color:white;
+  padding:10px ;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.extra-meal-btn{
+  background-color: #ffffff;
+  color:#4caf50;
+  border: none;
+  padding:10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sidebar{
+  width:200px;
+  height:93vh;
+  position:absolute;
+  left:1px;
+  top:60px;
+  background-color: #d0ffd4;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar ul{
+  list-style-type:none;
+  padding:20px;
+}
+.sidebar li{
+  margin:10px 0;
+  padding:20px;
+}
+.sidebar li:hover{
+color:green;
+}
+.logout-btn{
+  background-color: #4caf50;
+  color:white;
+  border:none;
+  padding:12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.main-content{
+  margin-left: 200px;
+  padding:40px;
+  width:700px;
+
+}
+.diet-planner{
+
+  padding:50px;
+  width:1680px;
+  height: 450px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+.meal{
+  display: flex;
+}
+.diet-img{
+
+  border-radius: 10px;
+  padding:10px;
+}
+.diet-info{
+  display: flex;
+}
+.meal-section{
+   background-color: #d0ffd4;
+   box-shadow: 0 4px 8px grey;
+}
+.meal-section ul{
+  list-style-type: none;
+  padding:0;
+}
+.calorie-section{
+  margin: 20px 120px;
+  padding: 30px;
+  box-shadow: 0 4px 8px grey;
+}
+.calorie-metre{
+  background-color: #d0fff4;
+  box-shadow: 0 4px 8px grey;
+  border-radius: 50%;
+  width:100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 140px;
+}
+.extra-meal{
+  margin: 20px 20px;
+  background-color: #d0fff4;
+  box-shadow: 0 4px 8px grey;
+
+}
+.extra-meal ul{
+  list-style-type: none;
+  padding:10px;
+  font-size: 20px;
+  width:400px;
+
+}
+.healthly-benefits{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+width: 100%;
+
+}
+.benefits-grid{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+.benefits-item{
+  background-color: #ffffff;
+  border:2px solid #ffffff;
+  box-shadow: 0 4px 8px#dfdfdf;
+  margin:40px 82px;
+  height:300px;
+  padding:10px;
+
+  border-radius: 5px;
+  text-align: center;
+}
+.benefit-img{
+  background-color: #e8f5e9;
+   width:240px;
+   height: 175px;
+   padding:10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+
+}

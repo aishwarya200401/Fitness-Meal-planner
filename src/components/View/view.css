@@ -1,0 +1,7 @@
+.view-wrapper {
+  max-width: 1280px;
+  padding: 3rem 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+}
